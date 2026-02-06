@@ -22,6 +22,8 @@ class Plugin{
 
 		add_filter('template_redirect', [ $this, 'block_template_frontend' ]);
 
+		add_action( 'admin_enqueue_scripts', [ $this, 'load_admin_style' ] );
+
     }
 
     private function includes(){
@@ -29,6 +31,7 @@ class Plugin{
         require_once( WTS_AE_PATH . 'includes/post-type.php' );
         require_once( WTS_AE_PATH . 'includes/meta-box.php' );
         require_once( WTS_AE_PATH . 'includes/shortcode.php' );
+		require_once( WTS_AE_PATH . 'includes/ui.php' );
     }
 
     public function plugins_loaded(){
@@ -58,6 +61,10 @@ class Plugin{
             die;
         }
     }
+
+	public function load_admin_style( $hook ) {
+		wp_enqueue_style( 'wpvae-admin', WTS_AE_URL . 'includes/admin/css/admin.css', [], AE_VERSION );
+	}
 }
 
 Plugin::instance();

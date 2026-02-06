@@ -23,7 +23,7 @@ class MetaBoxes{
     }
 
     public function add_meta_boxes(){
-        add_meta_box('ae-shortcode-box','Anywhere Elementor Usage',[$this, 'ae_shortcode_box'],'ae_global_templates','side','high');  
+        add_meta_box('ae-shortcode-box','Dynific Addons Usage',[$this, 'ae_shortcode_box'],'ae_global_templates','side','high');  
     }
 
     function ae_shortcode_box($post){

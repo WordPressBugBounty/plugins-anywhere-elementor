@@ -1,8 +1,8 @@
-=== AnyWhere Elementor ===
+=== Dynific Addons for Elementor (formerly AnyWhere Elementor) ===
 Contributors: wpvibes, webtechstreet, tejwanihemant
 Tags: page-builder, elementor, elementor addon
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 6.9
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,10 +21,10 @@ Use shortcode INSERT_ELEMENTOR  eg: [INSERT_ELEMENTOR id=xxx]
 Parameter "xxx" is id of any post created using Elementor.
 
 For you convenience and separate management of Global Templates thee is also a custom post type.
-Go to "AE Templates" from admin side navigation.
+Go to "Dynific Templates" from admin side navigation.
 
 = Go Pro =
-Checkout Pro version **[AnyWhere Elementor Pro](http://bit.ly/3NpowaJ)** of this plugin that provides a lot more functionality.
+Checkout Pro version **[Dynific Addons for Elementor Pro](https://www.wpbuilderaddons.com/dynific-addons-elementor/)** of this plugin that provides a lot more functionality.
 - Global Post Layouts
 - Post Archive Templates
 - Category,Tag Templates
@@ -34,14 +34,14 @@ Checkout Pro version **[AnyWhere Elementor Pro](http://bit.ly/3NpowaJ)** of this
 - Design 404 Pages
 - Design Search Page layouts.
 
-For more details and demo check our [official site](http://www.elementoraddons.com/)
+For more details and demo check our [official site](https://www.wpbuilderaddons.com/dynific-addons-elementor/)
 
-Note: This plugin is an addon of [Elementor Page Builder](https://wordpress.org/plugins/elementor/) and will only work with Elementor Page Builder installed.
+Note: This plugin is an addon of [Elementor Page Builder](https://www.wordpress.org/plugins/elementor/) and will only work with Elementor Page Builder installed.
 
 ### Other Plugins
 ✅  [Form Vibes](https://bit.ly/388JtXl): The ultimate tool to save and manage your Form submissions within WordPress Database.  It also provides a graphical analytics report that allows you to visualize how different forms are performing.
 ✅  [WP Mail Log](https://wordpress.org/plugins/wp-mail-log/): WP Mail Log is a WordPress plugin that allows you to easily log and view all emails sent from your WordPress site. It saves all email interactions with the help of an easy-to-view dashboard interface, which will be beneficial for troubleshooting.
-✅  [Elementor Addon Elements](https://bit.ly/36PD0jl): With the help of Elementor Addon Elements, you can use rich and stunning widgets to build your dream website.
+✅  [Addon Elements for Elementor](https://www.wpbuilderaddons.com/addon-elements-elementor/): With the help of Elementor Addon Elements, you can use rich and stunning widgets to build your dream website.
 ✅  [Booster Blocks](https://wordpress.org/plugins/booster-blocks/): The unique collection of booster blocks can be used to power up the default WordPress blocks. These blocks have extensive design capabilities to match your theme's style and appearance.
 ✅  [Frontend Product Editor](https://wordpress.org/plugins/frontend-product-editor/): Frontend product editor can be a great addition to your WooCommerce websites since it allows you to modify the WooCommerce product information right from the front.
 ✅  [Map Engine](https://wordpress.org/plugins/map-engine/): An ultimate map builder plugin that meets all of your requirements. One-stop destination to create as many Google Maps and Open Street Maps as you want.
@@ -53,6 +53,10 @@ Note: This plugin is an addon of [Elementor Page Builder](https://wordpress.org/
 
 
 == Changelog ==
+
+= 1.2.14 =
+* Plugin rebranding
+* Compability check
 
 = 1.2.13
 * Tested with the latest WordPress and Elementor Release.
